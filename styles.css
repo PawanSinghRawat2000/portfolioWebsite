@@ -62,7 +62,7 @@ nav ul li a:hover::after{
 }
 .header-text h1{
     font-size:60px;
-    margin-top:20px;
+    margin-top:80px;
 }
 .header-text h1 span{
     color:#ff004f;
@@ -125,6 +125,8 @@ nav ul li a:hover::after{
 .tab-contents ul li span{
     font-size:14px;
     color:#b54749;
+    margin-bottom: 8px;
+    display: inline-block;
 }
 
 .tab-contents{
@@ -238,6 +240,7 @@ nav ul li a:hover::after{
 }
 
 .btn{
+    text-align: center;
     display:block;
     margin:50px auto;
     width:fit-content;
@@ -329,7 +332,7 @@ nav .fa-solid{
         background-image: url(images/phone-background.jpg);
     }
     .header-text{
-        margin-top:100%;
+        margin-top:70vh;
         font-size:16px;
     }
     .header-text h1{
@@ -362,6 +365,10 @@ nav .fa-solid{
     }
     .sub-title{
         font-size: 40px;
+        text-align: center;
+    }
+    .about-col-2 p{
+        text-align: center;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -381,5 +388,18 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
+    }
+    .tab-titles{
+        justify-content: center;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+    .contact-left{
+        text-align: center;
+    }
+    .btn.btn2 {
+        display: block;
     }
 }
